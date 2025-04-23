@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's garbage collector is non-generational and concurrent with stop-the-world phases.
+Linux uses cgroups and namespaces for resource isolation in containers.
 
 </div>
