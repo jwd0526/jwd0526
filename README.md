@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-TCP uses sequence numbers and ACKs to ensure reliable, in-order delivery.
+Go's garbage collector is non-generational and concurrent with stop-the-world phases.
 
 </div>
