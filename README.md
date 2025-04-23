@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Linux uses cgroups and namespaces for resource isolation in containers.
+TCP uses sequence numbers and ACKs to ensure reliable, in-order delivery.
 
 </div>
