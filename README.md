@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go slices are descriptors: they hold a pointer, length, and capacity.
+TCP uses sequence numbers and ACKs to ensure reliable, in-order delivery.
 
 </div>
