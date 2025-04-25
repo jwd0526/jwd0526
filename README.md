@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Linux kernel uses page cache to speed up repeated file reads and writes.
+Go's garbage collector is non-generational and concurrent with stop-the-world phases.
 
 </div>
