@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's garbage collector is non-generational and concurrent with stop-the-world phases.
+Pods in Kubernetes get a pause container to hold the network namespace.
 
 </div>
