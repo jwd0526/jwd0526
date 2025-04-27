@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Goroutines can be cheaper than threads but still consume stack and scheduler resources.
+The Linux kernel uses page cache to speed up repeated file reads and writes.
 
 </div>
