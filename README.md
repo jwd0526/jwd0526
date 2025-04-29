@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, a nil slice is not the same as an empty slice ('nil' vs '[]T{}'), but both are 'len==0'.
+PersistentVolumes in Kubernetes abstract storage and decouple pods from underlying disks.
 
 </div>
