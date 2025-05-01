@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's 'sync.Pool' helps reuse temporary objects and reduce GC pressure.
+A Kubernetes Deployment manages ReplicaSets and rolls out updates declaratively.
 
 </div>
