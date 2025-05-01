@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A Kubernetes Deployment manages ReplicaSets and rolls out updates declaratively.
+In Go, a nil slice is not the same as an empty slice ('nil' vs '[]T{}'), but both are 'len==0'.
 
 </div>
