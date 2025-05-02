@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'initContainers' run sequentially before main containers start.
+In Go, a nil slice is not the same as an empty slice ('nil' vs '[]T{}'), but both are 'len==0'.
 
 </div>
