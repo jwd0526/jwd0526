@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'initContainers' run sequentially before main containers start.
+The Go runtime uses a mark-and-sweep garbage collector with concurrent phases.
 
 </div>
