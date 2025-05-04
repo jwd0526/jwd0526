@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's net/http client reuses TCP connections using the 'Transport''s internal cache.
+In Kubernetes, 'initContainers' run sequentially before main containers start.
 
 </div>
