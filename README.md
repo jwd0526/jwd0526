@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Containers share the host kernel but run in isolated namespaces (PID, NET, etc).
+Go's 'sync.Pool' helps reuse temporary objects and reduce GC pressure.
 
 </div>
