@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes liveness probes restart containers that stop responding.
+Containers share the host kernel but run in isolated namespaces (PID, NET, etc).
 
 </div>
