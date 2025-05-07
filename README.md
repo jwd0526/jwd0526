@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go scheduler assigns goroutines to machine threads via a M:N mapping model.
+Go's net/http client reuses TCP connections using the 'Transport''s internal cache.
 
 </div>
