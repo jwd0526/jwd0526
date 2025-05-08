@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Linux 'select()' and 'epoll()' APIs enable multiplexing I/O over multiple sockets.
+etcd, used by Kubernetes, is a consistent and highly available key-value store.
 
 </div>
