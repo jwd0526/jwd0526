@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, 'context.WithCancel' and 'context.WithTimeout' are common for request-scoped timeouts.
+The Go scheduler assigns goroutines to machine threads via a M:N mapping model.
 
 </div>
