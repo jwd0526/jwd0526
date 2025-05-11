@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go 'for range' over a map visits keys in random order to avoid reliance on order.
+In Go, 'context.WithCancel' and 'context.WithTimeout' are common for request-scoped timeouts.
 
 </div>
