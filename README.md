@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go maps resize when they exceed their load factor, which can trigger rehashing.
+The Linux 'select()' and 'epoll()' APIs enable multiplexing I/O over multiple sockets.
 
 </div>
