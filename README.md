@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Linux, socket buffers are separate from user space; overflowing causes dropped packets.
+Go maps resize when they exceed their load factor, which can trigger rehashing.
 
 </div>
