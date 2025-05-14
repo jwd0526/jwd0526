@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go runtime manages goroutine stacks dynamically, starting small and growing as needed.
+Go 'for range' over a map visits keys in random order to avoid reliance on order.
 
 </div>
