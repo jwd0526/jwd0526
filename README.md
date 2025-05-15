@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go panics can be recovered from using 'defer', 'recover', and re-panicking.
+Kubernetes readiness probes control whether a container receives traffic.
 
 </div>
