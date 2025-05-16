@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Linux, socket buffers are separate from user space; overflowing causes dropped packets.
+Kubernetes namespaces isolate resources and policies between logical tenants.
 
 </div>
