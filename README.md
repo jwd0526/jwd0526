@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go panics can be recovered from using 'defer', 'recover', and re-panicking.
+The Go runtime manages goroutine stacks dynamically, starting small and growing as needed.
 
 </div>
