@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A 'sync.Mutex' in Go is a lightweight structure implemented in user space.
+Kubernetes namespaces isolate resources and policies between logical tenants.
 
 </div>
