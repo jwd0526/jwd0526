@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A 'sync.Mutex' in Go is a lightweight structure implemented in user space.
+Go panics can be recovered from using 'defer', 'recover', and re-panicking.
 
 </div>
