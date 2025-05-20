@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses RBAC for fine-grained permission control on resources.
+In Kubernetes, 'kubectl exec' connects over the API server, not directly to the node.
 
 </div>
