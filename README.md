@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go compiler inlines functions based on cost and benefit heuristics.
+A 'sync.Mutex' in Go is a lightweight structure implemented in user space.
 
 </div>
