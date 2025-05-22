@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's 'net.Conn' is an interface backed by concrete types like 'TCPConn' or 'TLSConn'.
+Go's 'iota' simplifies creation of related constants using enumerated values.
 
 </div>
