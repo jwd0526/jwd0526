@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go uses type embedding for composition, not inheritance.
+TCP congestion control algorithms like Cubic and BBR optimize throughput.
 
 </div>
