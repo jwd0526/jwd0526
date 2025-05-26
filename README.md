@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go uses type embedding for composition, not inheritance.
+Go's 'net.Conn' is an interface backed by concrete types like 'TCPConn' or 'TLSConn'.
 
 </div>
