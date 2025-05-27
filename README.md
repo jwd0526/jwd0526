@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's compiler escapes closures to the heap if they outlive their stack context.
+Kubernetes CNI plugins are responsible for IP assignment and pod-to-pod routing.
 
 </div>
