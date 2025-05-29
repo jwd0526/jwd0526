@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The 'reflect' package in Go allows runtime inspection, but at a performance cost.
+Kubernetes tolerations allow pods to schedule on nodes with taints.
 
 </div>
