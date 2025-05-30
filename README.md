@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-GOMAXPROCS sets the number of OS threads Go uses for executing goroutines.
+The 'reflect' package in Go allows runtime inspection, but at a performance cost.
 
 </div>
