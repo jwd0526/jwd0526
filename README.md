@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, horizontal pod autoscalers adjust replicas based on metrics like CPU.
+Go's compiler escapes closures to the heap if they outlive their stack context.
 
 </div>
