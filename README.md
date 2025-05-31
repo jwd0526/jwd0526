@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, horizontal pod autoscalers adjust replicas based on metrics like CPU.
+GOMAXPROCS sets the number of OS threads Go uses for executing goroutines.
 
 </div>
