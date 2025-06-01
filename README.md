@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's type assertions provide access to dynamic interface types.
+In Kubernetes, horizontal pod autoscalers adjust replicas based on metrics like CPU.
 
 </div>
