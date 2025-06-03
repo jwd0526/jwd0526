@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go standard library's 'bufio' package reduces syscall overhead for I/O.
+Go supports method sets: a type implements an interface if it defines the required methods.
 
 </div>
