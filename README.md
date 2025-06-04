@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's type assertions provide access to dynamic interface types.
+Pod anti-affinity rules in Kubernetes influence where workloads get scheduled.
 
 </div>
