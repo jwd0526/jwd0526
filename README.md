@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Pod anti-affinity rules in Kubernetes influence where workloads get scheduled.
+Kubernetes Ingress controllers translate layer 7 rules into actual proxy config.
 
 </div>
