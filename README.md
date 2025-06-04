@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Pod anti-affinity rules in Kubernetes influence where workloads get scheduled.
+The Go standard library's 'bufio' package reduces syscall overhead for I/O.
 
 </div>
