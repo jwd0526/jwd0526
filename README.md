@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go lacks traditional exceptions—errors are returned explicitly and must be handled.
+The Go standard library's 'bufio' package reduces syscall overhead for I/O.
 
 </div>
