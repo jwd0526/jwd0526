@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses leases and heartbeats to elect and monitor controllers.
+Go lacks traditional exceptions—errors are returned explicitly and must be handled.
 
 </div>
