@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go 'time.Ticker' leaks if not properly stopped using '.Stop()'.
+The Go linker performs dead code elimination to shrink binaries.
 
 </div>
