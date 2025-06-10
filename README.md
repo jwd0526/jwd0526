@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-SIGKILL cannot be caught or ignored; it immediately terminates a Linux process.
+Kubernetes 'DaemonSets' ensure that a pod runs on every node.
 
 </div>
