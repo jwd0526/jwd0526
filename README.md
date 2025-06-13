@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'Finalizers' delay deletion until cleanup logic is executed.
+Go's 'net/http' server handles each request in its own goroutine.
 
 </div>
