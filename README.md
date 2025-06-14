@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'Finalizers' delay deletion until cleanup logic is executed.
+SIGKILL cannot be caught or ignored; it immediately terminates a Linux process.
 
 </div>
