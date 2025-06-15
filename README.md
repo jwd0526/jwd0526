@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go uses goroutine stacks that grow and shrink, unlike fixed-size thread stacks.
+The Go scheduler preempts long-running goroutines to maintain fairness.
 
 </div>
