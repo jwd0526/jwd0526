@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's pointer semantics mean you can modify underlying struct fields via method receivers.
+Kubernetes 'StatefulSets' preserve pod identity and volume ordering.
 
 </div>
