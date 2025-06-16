@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'StatefulSets' preserve pod identity and volume ordering.
+In Kubernetes, 'Finalizers' delay deletion until cleanup logic is executed.
 
 </div>
