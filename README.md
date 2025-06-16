@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'Finalizers' delay deletion until cleanup logic is executed.
+Go's pointer semantics mean you can modify underlying struct fields via method receivers.
 
 </div>
