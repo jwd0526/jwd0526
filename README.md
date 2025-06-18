@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A Go map lookup with a non-existent key returns the zero value of the value type.
+Kubernetes 'StatefulSets' preserve pod identity and volume ordering.
 
 </div>
