@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's 'os/exec' package launches external commands using fork/exec under the hood.
+Go uses goroutine stacks that grow and shrink, unlike fixed-size thread stacks.
 
 </div>
