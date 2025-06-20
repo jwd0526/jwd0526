@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses admission controllers to modify or reject API requests at runtime.
+Go's 'os/exec' package launches external commands using fork/exec under the hood.
 
 </div>
