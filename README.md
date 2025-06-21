@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses admission controllers to modify or reject API requests at runtime.
+A Go map lookup with a non-existent key returns the zero value of the value type.
 
 </div>
