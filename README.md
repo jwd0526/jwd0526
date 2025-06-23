@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'cronjobs' manage periodic and scheduled jobs based on time.
+Kubernetes uses admission controllers to modify or reject API requests at runtime.
 
 </div>
