@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses admission controllers to modify or reject API requests at runtime.
+The Go toolchain includes 'vet' for static analysis of suspicious code.
 
 </div>
