@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'cronjobs' manage periodic and scheduled jobs based on time.
+The Go toolchain includes 'vet' for static analysis of suspicious code.
 
 </div>
