@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's interfaces support duck typing: behavior over explicit declarations.
+Kubernetes 'cronjobs' manage periodic and scheduled jobs based on time.
 
 </div>
