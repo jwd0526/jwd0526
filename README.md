@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'VolumeMounts' map volumes into containers at specified paths.
+Go's slice reallocation on append may cause copies if capacity is exceeded.
 
 </div>
