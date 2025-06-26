@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'VolumeMounts' map volumes into containers at specified paths.
+Go's interfaces support duck typing: behavior over explicit declarations.
 
 </div>
