@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's slice reallocation on append may cause copies if capacity is exceeded.
+In Kubernetes, 'VolumeMounts' map volumes into containers at specified paths.
 
 </div>
