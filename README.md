@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'Jobs' run pods to completion and retry on failure per 'backoffLimit'.
+In Kubernetes, 'VolumeMounts' map volumes into containers at specified paths.
 
 </div>
