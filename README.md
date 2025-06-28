@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'Jobs' run pods to completion and retry on failure per 'backoffLimit'.
+Go's interfaces support duck typing: behavior over explicit declarations.
 
 </div>
