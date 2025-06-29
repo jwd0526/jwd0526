@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, small structs passed by value can be more efficient than pointers due to stack allocation.
+Go builds static binaries by default, easing deployment in minimal containers.
 
 </div>
