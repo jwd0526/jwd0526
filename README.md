@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A Go struct with no fields (empty struct) uses zero bytes of storage.
+Kubernetes 'Jobs' run pods to completion and retry on failure per 'backoffLimit'.
 
 </div>
