@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Although pointers in Go don't pass copies, it is often still more performant to use a value because values are stored on the stack.
+In Go, unbuffered channels block until both sender and receiver are ready.
 
 </div>
