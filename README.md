@@ -33,7 +33,7 @@ Working on distributed systems and microservices architecture
 - 💼 Land a full-time software engineering role
 
 </td>
-<td width="40%">
+<td width="60%">
 
 <div align="center">
 
