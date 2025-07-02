@@ -103,20 +103,6 @@ func NewJackson() *Developer {
 
 </div>
 
----
-
-## 🏗️ Architecture Focus
-
-<div align="center">
-
-| Area | Level | Status |
-|------|-------|--------|
-| **Full-Stack Development** | ████████░░ | Expert |
-| **Distributed Systems** | ██████░░░░ | Developing |
-| **Infrastructure/K8s** | ██████░░░░ | Active |
-| **Go Ecosystem** | ████░░░░░░ | Learning |
-
-</div>
 
 ---
 
@@ -148,7 +134,5 @@ func NewJackson() *Developer {
 <img src="https://komarev.com/ghpvc/?username=jwd0526&style=flat-square&color=3b82f6&label=Profile+Views" alt="Views"/>
 
 <br><br>
-
-<sub>🚀 Building scalable systems, one microservice at a time</sub>
 
 </div>
