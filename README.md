@@ -11,7 +11,7 @@
 ---
 
 <table>
-<tr>
+<tr width="100%">
 <td width="40%">
 
 ## 🚀 Currently Building
