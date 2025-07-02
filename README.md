@@ -10,7 +10,7 @@
 
 ---
 
-<table>
+<table align="center">
 <tr width="110%">
 <td width="70%">
 
@@ -31,6 +31,7 @@ Working on distributed systems and microservices architecture
 - 🚀 Ship the CRM SaaS platform
 - 🐹 Master Go ecosystem (Gin, GORM, etc.)
 - 💼 Land a full-time software engineering role
+
 
 </td>
 <td width="30%">
