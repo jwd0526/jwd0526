@@ -35,7 +35,7 @@ Working on distributed systems and microservices architecture
 </td>
 <td width="60%">
 
-<div align="center">
+<div>
 
 ```go
 type Developer struct {
