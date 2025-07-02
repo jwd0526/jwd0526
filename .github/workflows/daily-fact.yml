@@ -1,0 +1,147 @@
+name: Update Daily Fun Fact
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Run daily at 12:00 UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-fact:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        
+    - name: Update daily fact
+      run: |
+        facts=(
+          "In Go, small structs passed by value can be more efficient than pointers due to stack allocation."
+          "Python’s GIL allows only one thread to execute Python bytecode at a time, limiting parallelism."
+          "Kubernetes Services use iptables or IPVS to implement virtual IPs and distribute traffic."
+          "Go interface values consist of type info and data pointer, which can cause nil interface pitfalls."
+          "In Linux, fork() uses copy-on-write, avoiding immediate duplication of memory pages."
+          "In Go, escape analysis determines whether variables are stack or heap allocated."
+          "TCP connections use a three-way handshake: SYN, SYN-ACK, ACK."
+          "Channels in Go are first-class objects used for synchronizing goroutines safely."
+          "In Kubernetes, Pods on the same node communicate via the virtual Ethernet bridge (usually cni0)."
+          "DNS lookups in Go use the system resolver by default unless CGO is disabled."
+          "In Docker, layers are content-addressable and cached for reuse to speed up builds."
+          "Linux capabilities allow processes to run with fine-grained privileges without full root access."
+          "The Go runtime uses a work-stealing scheduler to efficiently schedule goroutines."
+          "TCP_NODELAY disables Nagle’s algorithm, reducing latency for small writes."
+          "Go maps are not safe for concurrent writes without external synchronization."
+          "In Linux, inodes represent file metadata separately from file names (directory entries)."
+          "gRPC uses HTTP/2 for multiplexed streams, header compression, and low latency."
+          "Zero-copy I/O avoids unnecessary data copying between kernel and user space buffers."
+          "Goroutines are multiplexed onto a smaller number of OS threads by the Go scheduler."
+          "TLS handshakes use asymmetric encryption to establish a symmetric session key."
+          "The Go compiler performs escape analysis to determine heap vs stack allocation."
+          "In Kubernetes, ConfigMaps and Secrets are mounted as volumes or exposed via environment vars."
+          "The Go memory model defines happens-before relationships to reason about concurrency."
+          "A Go 'select' on closed channels receives immediately with the zero value."
+          "iptables rules are evaluated in order; jumps can alter flow within chains."
+          "In Go, 'defer' statements are pushed onto a stack and executed in LIFO order."
+          "Linux uses cgroups and namespaces for resource isolation in containers."
+          "TCP uses sequence numbers and ACKs to ensure reliable, in-order delivery."
+          "Go’s garbage collector is non-generational and concurrent with stop-the-world phases."
+          "Pods in Kubernetes get a pause container to hold the network namespace."
+          "The Linux kernel uses page cache to speed up repeated file reads and writes."
+          "Go slices are descriptors: they hold a pointer, length, and capacity."
+          "PersistentVolumes in Kubernetes abstract storage and decouple pods from underlying disks."
+          "Goroutines can be cheaper than threads but still consume stack and scheduler resources."
+          "A Kubernetes Deployment manages ReplicaSets and rolls out updates declaratively."
+          "In Go, a nil slice is not the same as an empty slice ('nil' vs '[]T{}'), but both are 'len==0'."
+          "The Go runtime uses a mark-and-sweep garbage collector with concurrent phases."
+          "In Kubernetes, 'initContainers' run sequentially before main containers start."
+          "Go’s 'sync.Pool' helps reuse temporary objects and reduce GC pressure."
+          "Containers share the host kernel but run in isolated namespaces (PID, NET, etc)."
+          "Go’s net/http client reuses TCP connections using the 'Transport''s internal cache."
+          "etcd, used by Kubernetes, is a consistent and highly available key-value store."
+          "The Go scheduler assigns goroutines to machine threads via a M:N mapping model."
+          "Kubernetes liveness probes restart containers that stop responding."
+          "In Go, 'context.WithCancel' and 'context.WithTimeout' are common for request-scoped timeouts."
+          "The Linux 'select()' and 'epoll()' APIs enable multiplexing I/O over multiple sockets."
+          "Go maps resize when they exceed their load factor, which can trigger rehashing."
+          "Go 'for range' over a map visits keys in random order to avoid reliance on order."
+          "Kubernetes readiness probes control whether a container receives traffic."
+          "The Go runtime manages goroutine stacks dynamically, starting small and growing as needed."
+          "In Linux, socket buffers are separate from user space; overflowing causes dropped packets."
+          "Kubernetes namespaces isolate resources and policies between logical tenants."
+          "Go panics can be recovered from using 'defer', 'recover', and re-panicking."
+          "In Kubernetes, 'kubectl exec' connects over the API server, not directly to the node."
+          "A 'sync.Mutex' in Go is a lightweight structure implemented in user space."
+          "Go’s 'iota' simplifies creation of related constants using enumerated values."
+          "The Go compiler inlines functions based on cost and benefit heuristics."
+          "Kubernetes uses RBAC for fine-grained permission control on resources."
+          "TCP congestion control algorithms like Cubic and BBR optimize throughput."
+          "Go’s 'net.Conn' is an interface backed by concrete types like 'TCPConn' or 'TLSConn'."
+          "Kubernetes CNI plugins are responsible for IP assignment and pod-to-pod routing."
+          "Go uses type embedding for composition, not inheritance."
+          "Kubernetes tolerations allow pods to schedule on nodes with taints."
+          "The 'reflect' package in Go allows runtime inspection, but at a performance cost."
+          "Go’s compiler escapes closures to the heap if they outlive their stack context."
+          "In Kubernetes, horizontal pod autoscalers adjust replicas based on metrics like CPU."
+          "GOMAXPROCS sets the number of OS threads Go uses for executing goroutines."
+          "Go supports method sets: a type implements an interface if it defines the required methods."
+          "Kubernetes Ingress controllers translate layer 7 rules into actual proxy config."
+          "Go’s type assertions provide access to dynamic interface types."
+          "Pod anti-affinity rules in Kubernetes influence where workloads get scheduled."
+          "The Go standard library’s 'bufio' package reduces syscall overhead for I/O."
+          "Go lacks traditional exceptions—errors are returned explicitly and must be handled."
+          "The Go linker performs dead code elimination to shrink binaries."
+          "Kubernetes 'DaemonSets' ensure that a pod runs on every node."
+          "The Go 'time.Ticker' leaks if not properly stopped using '.Stop()'."
+          "Kubernetes uses leases and heartbeats to elect and monitor controllers."
+          "Go’s 'net/http' server handles each request in its own goroutine."
+          "SIGKILL cannot be caught or ignored; it immediately terminates a Linux process."
+          "The Go scheduler preempts long-running goroutines to maintain fairness."
+          "In Kubernetes, 'Finalizers' delay deletion until cleanup logic is executed."
+          "Go’s pointer semantics mean you can modify underlying struct fields via method receivers."
+          "Kubernetes 'StatefulSets' preserve pod identity and volume ordering."
+          "Go uses goroutine stacks that grow and shrink, unlike fixed-size thread stacks."
+          "Go’s 'os/exec' package launches external commands using fork/exec under the hood."
+          "A Go map lookup with a non-existent key returns the zero value of the value type."
+          "Go’s runtime uses stop-the-world pauses, but tries to keep them under 10ms."
+          "Kubernetes uses admission controllers to modify or reject API requests at runtime."
+          "The Go toolchain includes 'vet' for static analysis of suspicious code."
+          "Kubernetes 'cronjobs' manage periodic and scheduled jobs based on time."
+          "Go’s slice reallocation on append may cause copies if capacity is exceeded."
+          "In Kubernetes, 'VolumeMounts' map volumes into containers at specified paths."
+          "Go’s interfaces support duck typing: behavior over explicit declarations."
+          "Go builds static binaries by default, easing deployment in minimal containers."
+          "Kubernetes 'Jobs' run pods to completion and retry on failure per 'backoffLimit'."
+          "In Go, unbuffered channels block until both sender and receiver are ready."
+          "A Go struct with no fields (empty struct) uses zero bytes of storage."
+        )
+        
+        # Get current date for seeding random selection
+        seed=$(($(date +%s) / 86400))
+        
+        # Select a fact based on the day
+        fact_index=$((seed % ${#facts[@]}))
+        selected_fact="${facts[$fact_index]}"
+        
+        # Update the README.md file (line 140)
+        awk -v new_fact="$selected_fact" '
+        NR == 140 {
+            print new_fact
+            next
+        }
+        { print }
+        ' README.md > temp_readme.md
+        
+        mv temp_readme.md README.md
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "jwd0526@gmail.com"
+        git config --local user.name "jwd0526"
+        git add README.md
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Daily fact update: $(date +%Y-%m-%d)"
+          git push
+        fi

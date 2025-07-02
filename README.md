@@ -135,4 +135,8 @@ func NewJackson() *Developer {
 
 <br><br>
 
+## Daily Fun Fact
+
+Although pointers in Go don't pass copies, it is often still more performant to use a value because values are stored on the stack.
+
 </div>
