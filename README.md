@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Header -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=42&duration=2500&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&height=80&lines=Jackson+Davis;Software+Engineer+%40+Nymbus;Full-Stack+%26+Infrastructure" alt="Header" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=42&duration=2500&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&height=80&lines=Jackson+Davis;Software+Engineer;Full-Stack+%26+Infrastructure" alt="Header" />
 
 <!-- Location Badge -->
 <img src="https://img.shields.io/badge/📍_Athens,_GA-Remote-3B82F6?style=flat-square&labelColor=1F2937" alt="Location"/>
@@ -98,7 +98,7 @@ func NewJackson() *Developer {
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=jwd0526&theme=default&hide_border=true&background=ffffff&stroke=3b82f6&ring=6366f1&fire=f59e0b&currStreakLabel=374151&sideLabels=374151" alt="GitHub Streak"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jwd0526&layout=compact&langs_count=8&theme=default&hide_border=true&bg_color=ffffff&title_color=3b82f6&text_color=374151"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jwd0526&layout=compact&langs_count=8&theme=default&hide_border=true&bg_color=ffffff&title_color=3b82f6&text_color=374151"/>
 
 
 </div>
