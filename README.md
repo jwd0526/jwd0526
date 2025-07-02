@@ -97,8 +97,8 @@ func NewJackson() *Developer {
 ## 📊 GitHub Analytics
 
 <div align="center">
-<img height="140em" src="https://github-readme-streak-stats.herokuapp.com/?user=jwd0526&theme=default&hide_border=true&background=ffffff&stroke=3b82f6&ring=6366f1&fire=f59e0b&currStreakLabel=374151&sideLabels=374151" alt="GitHub Streak"/>
-<img height="140.5em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jwd0526&layout=compact&langs_count=8&theme=default&hide_border=true&bg_color=ffffff&title_color=3b82f6&text_color=374151"/>
+<img height="145em" src="https://github-readme-streak-stats.herokuapp.com/?user=jwd0526&theme=default&hide_border=true&background=ffffff&stroke=3b82f6&ring=6366f1&fire=f59e0b&currStreakLabel=374151&sideLabels=374151" alt="GitHub Streak"/>
+<img height="145em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jwd0526&layout=compact&langs_count=8&theme=default&hide_border=true&bg_color=ffffff&title_color=3b82f6&text_color=374151"/>
 
 
 </div>
