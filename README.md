@@ -11,8 +11,8 @@
 ---
 
 <table>
-<tr width="100%">
-<td width="40%">
+<tr width="110%">
+<td width="70%">
 
 ## 🚀 Currently Building
 
@@ -33,23 +33,23 @@ Working on distributed systems and microservices architecture
 - 💼 Land a full-time software engineering role
 
 </td>
-<td width="60%">
+<td width="30%">
 
 <div>
 
 ```go
 type Developer struct {
-    Name string
-    Role string  
-    Location string
-    Focus []string
+    Name        string
+    Role        string  
+    Location    string
+    Focus       []string
 }
 
 func NewJackson() *Developer {
     return &Developer{
-        Name: "Jackson Davis",
-        Role: "Software Engineer",
-        Location "Athens, GA",
+        Name:       "Jackson Davis",
+        Role:       "Software Engineer",
+        Location    "Athens, GA",
         Focus: []string{
             "Full-Stack Development",
             "Distributed Systems", 
