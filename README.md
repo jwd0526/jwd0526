@@ -12,7 +12,7 @@
 
 <table>
 <tr>
-<td width="60%">
+<td width="40%">
 
 ## 🚀 Currently Building
 
