@@ -39,17 +39,17 @@ Working on distributed systems and microservices architecture
 
 ```go
 type Developer struct {
-    Name     string
-    Role     string  
+    Name string
+    Role string  
     Location string
-    Focus    []string
+    Focus []string
 }
 
 func NewJackson() *Developer {
     return &Developer{
-        Name:     "Jackson Davis",
-        Role:     "Software Engineer",
-        Location: "Athens, GA",
+        Name: "Jackson Davis",
+        Role: "Software Engineer",
+        Location "Athens, GA",
         Focus: []string{
             "Full-Stack Development",
             "Distributed Systems", 
