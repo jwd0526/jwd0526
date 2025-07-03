@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go's garbage collector is non-generational and concurrent with stop-the-world phases.
+A Go struct with no fields (empty struct) uses zero bytes of storage.
 
 </div>
