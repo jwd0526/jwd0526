@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, small structs passed by value can be more efficient than pointers due to stack allocation.
+Python’s GIL allows only one thread to execute Python bytecode at a time, limiting parallelism.
 
 </div>
