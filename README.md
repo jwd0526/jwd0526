@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go interface values consist of type info and data pointer, which can cause nil interface pitfalls.
+In Linux, fork() uses copy-on-write, avoiding immediate duplication of memory pages.
 
 </div>
