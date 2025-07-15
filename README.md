@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Docker, layers are content-addressable and cached for reuse to speed up builds.
+Linux capabilities allow processes to run with fine-grained privileges without full root access.
 
 </div>
