@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Zero-copy I/O avoids unnecessary data copying between kernel and user space buffers.
+Goroutines are multiplexed onto a smaller number of OS threads by the Go scheduler.
 
 </div>
