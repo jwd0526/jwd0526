@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go compiler performs escape analysis to determine heap vs stack allocation.
+In Kubernetes, ConfigMaps and Secrets are mounted as volumes or exposed via environment vars.
 
 </div>
