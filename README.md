@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, 'defer' statements are pushed onto a stack and executed in LIFO order.
+Linux uses cgroups and namespaces for resource isolation in containers.
 
 </div>
