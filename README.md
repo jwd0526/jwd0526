@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'initContainers' run sequentially before main containers start.
+Go’s 'sync.Pool' helps reuse temporary objects and reduce GC pressure.
 
 </div>
