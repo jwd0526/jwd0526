@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Containers share the host kernel but run in isolated namespaces (PID, NET, etc).
+Go’s net/http client reuses TCP connections using the 'Transport''s internal cache.
 
 </div>
