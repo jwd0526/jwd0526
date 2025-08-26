@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go panics can be recovered from using 'defer', 'recover', and re-panicking.
+In Kubernetes, 'kubectl exec' connects over the API server, not directly to the node.
 
 </div>
