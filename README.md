@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-TCP congestion control algorithms like Cubic and BBR optimize throughput.
+Go’s 'net.Conn' is an interface backed by concrete types like 'TCPConn' or 'TLSConn'.
 
 </div>
