@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s 'net.Conn' is an interface backed by concrete types like 'TCPConn' or 'TLSConn'.
+Kubernetes CNI plugins are responsible for IP assignment and pod-to-pod routing.
 
 </div>
