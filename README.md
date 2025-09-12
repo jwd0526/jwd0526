@@ -24,7 +24,7 @@
 
 ## 💼 Experience
 
-**Software Engineer Intern @ Nymbus**  
+**Software Engineer @ Nymbus**  
 Working on distributed systems and microservices architecture
 
 ## 🎯 2025 Focus
