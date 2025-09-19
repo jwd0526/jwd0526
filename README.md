@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses leases and heartbeats to elect and monitor controllers.
+Go’s 'net/http' server handles each request in its own goroutine.
 
 </div>
