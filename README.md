@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, unbuffered channels block until both sender and receiver are ready.
+A Go struct with no fields (empty struct) uses zero bytes of storage.
 
 </div>
