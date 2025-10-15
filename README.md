@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, escape analysis determines whether variables are stack or heap allocated.
+TCP connections use a three-way handshake: SYN, SYN-ACK, ACK.
 
 </div>
