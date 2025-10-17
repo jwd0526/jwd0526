@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Channels in Go are first-class objects used for synchronizing goroutines safely.
+In Kubernetes, Pods on the same node communicate via the virtual Ethernet bridge (usually cni0).
 
 </div>
