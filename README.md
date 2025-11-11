@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-PersistentVolumes in Kubernetes abstract storage and decouple pods from underlying disks.
+Goroutines can be cheaper than threads but still consume stack and scheduler resources.
 
 </div>
