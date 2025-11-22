@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes liveness probes restart containers that stop responding.
+In Go, 'context.WithCancel' and 'context.WithTimeout' are common for request-scoped timeouts.
 
 </div>
