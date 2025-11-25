@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go maps resize when they exceed their load factor, which can trigger rehashing.
+Go 'for range' over a map visits keys in random order to avoid reliance on order.
 
 </div>
