@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes readiness probes control whether a container receives traffic.
+The Go runtime manages goroutine stacks dynamically, starting small and growing as needed.
 
 </div>
