@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go runtime manages goroutine stacks dynamically, starting small and growing as needed.
+In Linux, socket buffers are separate from user space; overflowing causes dropped packets.
 
 </div>
