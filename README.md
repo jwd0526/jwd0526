@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes namespaces isolate resources and policies between logical tenants.
+Go panics can be recovered from using 'defer', 'recover', and re-panicking.
 
 </div>
