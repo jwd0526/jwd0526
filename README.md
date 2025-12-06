@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes uses RBAC for fine-grained permission control on resources.
+TCP congestion control algorithms like Cubic and BBR optimize throughput.
 
 </div>
