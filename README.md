@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go uses type embedding for composition, not inheritance.
+Kubernetes tolerations allow pods to schedule on nodes with taints.
 
 </div>
