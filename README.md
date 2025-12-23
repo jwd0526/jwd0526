@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'DaemonSets' ensure that a pod runs on every node.
+The Go 'time.Ticker' leaks if not properly stopped using '.Stop()'.
 
 </div>
