@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go 'time.Ticker' leaks if not properly stopped using '.Stop()'.
+Kubernetes uses leases and heartbeats to elect and monitor controllers.
 
 </div>
