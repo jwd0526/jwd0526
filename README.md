@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s 'net/http' server handles each request in its own goroutine.
+SIGKILL cannot be caught or ignored; it immediately terminates a Linux process.
 
 </div>
