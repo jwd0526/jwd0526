@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s interfaces support duck typing: behavior over explicit declarations.
+Go builds static binaries by default, easing deployment in minimal containers.
 
 </div>
