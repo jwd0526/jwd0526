@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go builds static binaries by default, easing deployment in minimal containers.
+Kubernetes 'Jobs' run pods to completion and retry on failure per 'backoffLimit'.
 
 </div>
