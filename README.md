@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, Pods on the same node communicate via the virtual Ethernet bridge (usually cni0).
+DNS lookups in Go use the system resolver by default unless CGO is disabled.
 
 </div>
