@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go maps are not safe for concurrent writes without external synchronization.
+In Linux, inodes represent file metadata separately from file names (directory entries).
 
 </div>
