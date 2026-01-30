@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Linux, inodes represent file metadata separately from file names (directory entries).
+gRPC uses HTTP/2 for multiplexed streams, header compression, and low latency.
 
 </div>
