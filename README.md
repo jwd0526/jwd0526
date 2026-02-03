@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-TLS handshakes use asymmetric encryption to establish a symmetric session key.
+The Go compiler performs escape analysis to determine heap vs stack allocation.
 
 </div>
