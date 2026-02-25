@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-etcd, used by Kubernetes, is a consistent and highly available key-value store.
+The Go scheduler assigns goroutines to machine threads via a M:N mapping model.
 
 </div>
