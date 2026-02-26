@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go scheduler assigns goroutines to machine threads via a M:N mapping model.
+Kubernetes liveness probes restart containers that stop responding.
 
 </div>
