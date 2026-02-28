@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, 'context.WithCancel' and 'context.WithTimeout' are common for request-scoped timeouts.
+The Linux 'select()' and 'epoll()' APIs enable multiplexing I/O over multiple sockets.
 
 </div>
