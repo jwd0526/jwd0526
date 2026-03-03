@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go 'for range' over a map visits keys in random order to avoid reliance on order.
+Kubernetes readiness probes control whether a container receives traffic.
 
 </div>
