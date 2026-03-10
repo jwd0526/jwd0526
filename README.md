@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A 'sync.Mutex' in Go is a lightweight structure implemented in user space.
+Go’s 'iota' simplifies creation of related constants using enumerated values.
 
 </div>
