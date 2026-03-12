@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go compiler inlines functions based on cost and benefit heuristics.
+Kubernetes uses RBAC for fine-grained permission control on resources.
 
 </div>
