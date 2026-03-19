@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The 'reflect' package in Go allows runtime inspection, but at a performance cost.
+Go’s compiler escapes closures to the heap if they outlive their stack context.
 
 </div>
