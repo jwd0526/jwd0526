@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go supports method sets: a type implements an interface if it defines the required methods.
+Kubernetes Ingress controllers translate layer 7 rules into actual proxy config.
 
 </div>
