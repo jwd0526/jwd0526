@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go lacks traditional exceptions—errors are returned explicitly and must be handled.
+The Go linker performs dead code elimination to shrink binaries.
 
 </div>
