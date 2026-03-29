@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go linker performs dead code elimination to shrink binaries.
+Kubernetes 'DaemonSets' ensure that a pod runs on every node.
 
 </div>
