@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go scheduler preempts long-running goroutines to maintain fairness.
+In Kubernetes, 'Finalizers' delay deletion until cleanup logic is executed.
 
 </div>
