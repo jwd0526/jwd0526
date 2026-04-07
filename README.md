@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'StatefulSets' preserve pod identity and volume ordering.
+Go uses goroutine stacks that grow and shrink, unlike fixed-size thread stacks.
 
 </div>
