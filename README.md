@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s 'os/exec' package launches external commands using fork/exec under the hood.
+A Go map lookup with a non-existent key returns the zero value of the value type.
 
 </div>
