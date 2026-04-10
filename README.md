@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A Go map lookup with a non-existent key returns the zero value of the value type.
+Go’s runtime uses stop-the-world pauses, but tries to keep them under 10ms.
 
 </div>
