@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s runtime uses stop-the-world pauses, but tries to keep them under 10ms.
+Kubernetes uses admission controllers to modify or reject API requests at runtime.
 
 </div>
