@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes 'cronjobs' manage periodic and scheduled jobs based on time.
+Go’s slice reallocation on append may cause copies if capacity is exceeded.
 
 </div>
