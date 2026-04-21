@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A Go struct with no fields (empty struct) uses zero bytes of storage.
+In Go, small structs passed by value can be more efficient than pointers due to stack allocation.
 
 </div>
