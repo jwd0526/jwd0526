@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Python’s GIL allows only one thread to execute Python bytecode at a time, limiting parallelism.
+Kubernetes Services use iptables or IPVS to implement virtual IPs and distribute traffic.
 
 </div>
