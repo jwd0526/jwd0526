@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes Services use iptables or IPVS to implement virtual IPs and distribute traffic.
+Go interface values consist of type info and data pointer, which can cause nil interface pitfalls.
 
 </div>
