@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Linux, fork() uses copy-on-write, avoiding immediate duplication of memory pages.
+In Go, escape analysis determines whether variables are stack or heap allocated.
 
 </div>
