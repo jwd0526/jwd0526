@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-TCP connections use a three-way handshake: SYN, SYN-ACK, ACK.
+Channels in Go are first-class objects used for synchronizing goroutines safely.
 
 </div>
