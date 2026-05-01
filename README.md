@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-DNS lookups in Go use the system resolver by default unless CGO is disabled.
+In Docker, layers are content-addressable and cached for reuse to speed up builds.
 
 </div>
