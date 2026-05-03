@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Linux capabilities allow processes to run with fine-grained privileges without full root access.
+The Go runtime uses a work-stealing scheduler to efficiently schedule goroutines.
 
 </div>
