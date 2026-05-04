@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go runtime uses a work-stealing scheduler to efficiently schedule goroutines.
+TCP_NODELAY disables Nagle’s algorithm, reducing latency for small writes.
 
 </div>
