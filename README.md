@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-TCP_NODELAY disables Nagle’s algorithm, reducing latency for small writes.
+Go maps are not safe for concurrent writes without external synchronization.
 
 </div>
