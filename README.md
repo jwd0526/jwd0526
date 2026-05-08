@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-gRPC uses HTTP/2 for multiplexed streams, header compression, and low latency.
+Zero-copy I/O avoids unnecessary data copying between kernel and user space buffers.
 
 </div>
