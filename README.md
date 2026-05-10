@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Goroutines are multiplexed onto a smaller number of OS threads by the Go scheduler.
+TLS handshakes use asymmetric encryption to establish a symmetric session key.
 
 </div>
