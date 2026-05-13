@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, ConfigMaps and Secrets are mounted as volumes or exposed via environment vars.
+The Go memory model defines happens-before relationships to reason about concurrency.
 
 </div>
