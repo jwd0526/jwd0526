@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Go memory model defines happens-before relationships to reason about concurrency.
+A Go 'select' on closed channels receives immediately with the zero value.
 
 </div>
