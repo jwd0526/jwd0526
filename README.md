@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-A Go 'select' on closed channels receives immediately with the zero value.
+iptables rules are evaluated in order; jumps can alter flow within chains.
 
 </div>
