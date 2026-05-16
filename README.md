@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-iptables rules are evaluated in order; jumps can alter flow within chains.
+In Go, 'defer' statements are pushed onto a stack and executed in LIFO order.
 
 </div>
