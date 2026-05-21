@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Pods in Kubernetes get a pause container to hold the network namespace.
+The Linux kernel uses page cache to speed up repeated file reads and writes.
 
 </div>
