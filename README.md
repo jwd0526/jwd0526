@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-The Linux kernel uses page cache to speed up repeated file reads and writes.
+Go slices are descriptors: they hold a pointer, length, and capacity.
 
 </div>
