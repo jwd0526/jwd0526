@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go slices are descriptors: they hold a pointer, length, and capacity.
+PersistentVolumes in Kubernetes abstract storage and decouple pods from underlying disks.
 
 </div>
