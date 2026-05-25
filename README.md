@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Goroutines can be cheaper than threads but still consume stack and scheduler resources.
+A Kubernetes Deployment manages ReplicaSets and rolls out updates declaratively.
 
 </div>
