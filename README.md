@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Go, a nil slice is not the same as an empty slice ('nil' vs '[]T{}'), but both are 'len==0'.
+The Go runtime uses a mark-and-sweep garbage collector with concurrent phases.
 
 </div>
