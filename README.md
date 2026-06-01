@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s net/http client reuses TCP connections using the 'Transport''s internal cache.
+etcd, used by Kubernetes, is a consistent and highly available key-value store.
 
 </div>
