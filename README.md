@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-In Kubernetes, 'kubectl exec' connects over the API server, not directly to the node.
+A 'sync.Mutex' in Go is a lightweight structure implemented in user space.
 
 </div>
