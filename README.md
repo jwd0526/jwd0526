@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Go’s 'iota' simplifies creation of related constants using enumerated values.
+The Go compiler inlines functions based on cost and benefit heuristics.
 
 </div>
