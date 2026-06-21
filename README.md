@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes CNI plugins are responsible for IP assignment and pod-to-pod routing.
+Go uses type embedding for composition, not inheritance.
 
 </div>
