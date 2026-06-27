@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-GOMAXPROCS sets the number of OS threads Go uses for executing goroutines.
+Go supports method sets: a type implements an interface if it defines the required methods.
 
 </div>
