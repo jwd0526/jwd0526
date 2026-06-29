@@ -137,6 +137,6 @@ func NewJackson() *Developer {
 
 ## Daily Fun Fact
 
-Kubernetes Ingress controllers translate layer 7 rules into actual proxy config.
+Go’s type assertions provide access to dynamic interface types.
 
 </div>
